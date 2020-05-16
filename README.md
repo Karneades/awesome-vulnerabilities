@@ -1,12 +1,6 @@
 # Awesome Vulnerabilities
 
-Collection of awesome and fascinating vulnerabilities. From sneaky persistence, to time of check to time of use vulnerabilities, to vulnerabilities where a awesome combination of multiple factors leades to privilege escaltion.
-
-snagit ,
-av symbolic link timeing ( toctou)
-race conditions
-ios xml parsing
-
+Collection of awesome and fascinating vulnerabilities. From sneaky persistence, to time of check to time of use vulnerabilities, to vulnerabilities where a awesome combination of multiple factors leades to privilege escalation.
 
 ## Time of Check to Time of Use (TOCTOU)
 
