@@ -5,6 +5,7 @@ Collection of awesome and fascinating vulnerabilities. From sneaky persistence, 
 ## Time of Check to Time of Use (TOCTOU)
 
 * [psychicpaper](https://siguza.github.io/psychicpaper/) - `I dubbed it “psychic paper” because, just like the item by that name that Doctor Who likes to carry, it allows you get past security checks and make others believe you have a wide range of credentials that you shouldn’t have.`. Exploiting the difference of the XML parsers in iOS and macOS allowed having more permissions than allowed by using comment tags inside the permission manifest (called _Entitlement_ in Apple terms). `So simple, in fact, that the PoC I tweeted out looks like an absolute joke. But it’s 100% real.`
+* [Firejail LPE](https://unparalleled.eu/blog/2021/20210208-rigged-race-against-firejail-for-local-root/) - Firejail before 0.9.64.4 allows attackers to bypass intended access restrictions because there is a TOCTOU race condition between a stat operation and an OverlayFS mount operation. See [advisory](https://unparalleled.eu/publications/2021/advisory-unpar-2021-0.txt) fore additional information.
 
 ## Privilege Escalation / Privileged Writes
 
